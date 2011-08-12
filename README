@@ -1,0 +1,72 @@
+ ============================================================================
+Recipe Organizer 
+Copyright © 2011 
+
+Author of project Recipe Organizer: Sharayu Jadhav.
+
+PROJECT DESCRIPTION
+-------------------
+Android application which helps you save and organize recipes on your android phone. The android phone provides an anytime accessible and portable place for saving the recipes you love. The application generates a grocery list for any recipe that you saved on the phone.
+
+
+PROJECT MOTIVATION
+------------------
+Recipe Organizer application is for people who love to try out new recipes but have a tough time remembering all the ingredients or the procedure.
+The android phone provides an anytime accessible and portable solution for saving the recipes you love. This means you can shop for ingredients on the go, without having to jot down a list of items in advance.
+
+
+TECHNICAL DETAILS
+-----------------
+•	Android Platform: Android device with version (2.1)
+•	Languages: Java and Xml
+•	Database: SQLite
+•	IDE: Eclipse
+
+
+FUTURE ENHANCEMENTS
+-------------------
+1.	Share recipes with friends through email.
+2. 	Ability to generate the grocery list with suitable quantities of ingredients depending on the number of people to be served.
+3.	Generic search feature. 
+ 
+For More Information please refer:
+https://github.com/ sharayu/Recipe-Organizer/blob/master/FUTURE ENHANCEMENTS
+
+
+PROJECT REPOSITORY
+------------------
+Recipe Organizer (https://github.com/ sharayu/Recipe-Organizer)
+
+
+INSTALLATION 
+------------
+Please refer to following document for installing Android:
+
+https://github.com/ sharayu/Recipe-Organizer/blob/master/Android_Installation_Guide.pdf
+
+
+COPYRIGHT AND LICENSE INFORMATION
+---------------------------------
+Copyright(C) 2011 Sharayu Jadhav
+License (https://github.com/ sharayu/Recipe-Organizer/blob/master/ GNU GENERAL PUBLIC LICENSE.txt)
+
+
+REFERENCES
+----------
+A note of ‘Thank you’ to all the references listed below. They were of immense help in understanding and using the Android platform.
+
+1)http://www.stackoverflow.com/
+
+2)http://developer.android.com/index.html 
+
+3) http://www.reigndesign.com/blog/using-your-own-sqlite-database-in-android-applications/
+
+4)Youtube video tutorials 
+i)	Uploaded by edujava at http://www.youtube.com/watch?v=7XlXTknNFpI
+ii)	Uploaded by CornboyzAndroid at http://www.youtube.com/user/CornboyzAndroid#p/a/9E21BFF408167ED6/0/xtsyrKdPZVw
+
+
+CONTACT INFORMATION
+------------------- 
+Sharayu Jadhav: sharayuj4u@gmail.com
+============================================================================
