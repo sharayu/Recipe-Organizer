@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Author : Sharayu Jadhav 
+This xml file is part of the project 'RECIPE ORGANIZER' for OSS (CS510) summer class project. -->
+
+<!--Copyright(c) 2011 
+Recipe Organizer is free software: you can redistribute it and/or modifyit under the terms of
+ the GNU General Public License as published bythe Free Software Foundation, either version 3 of the License,
+ or(at your option) any later version. This program is distributed in the hope that it will be useful,but
+ WITHOUT ANY WARRANTY; without even the implied warranty ofMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ See theGNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program.
+  If not, see <http://www.gnu.org/licenses/>.
+  
+    Contact Info:
+  Author: Sharayu Jadhav. 
+  For feedback email to sharayuj4u@gmail.com-->
+  
+<resources>
+    <string name="hello">Hello World, AddRecipe!</string>
+    <string name="app_name">RecipeOrganizer</string>
+    <string name="recipename"></string>
+    <string name="AddRecipeName">RecipeName</string>
+    <string name="Ingredients">Ingredients</string>
+    <string name="Procedure">Procedure</string>
+    
+    <string name="ButtonClicked">ButtonClicked</string>
+    <string name="Lookup">Lookup</string>
+    <string name="RecipeSaved">RecipeSaved</string>
+    <string name="main">main</string>
+    <string name="GenGrocList">GenGrocList</string>
+    <string name="EditRecp">EditRecp</string>
+    <string name="DelRecp">DelRecp</string>
+    
+    <string name="Qty"> Qty</string>
+    
+    <string-array name="Quantity_array">
+         <item>tsp</item>
+         <item>tbs</item>
+         <item>cups</item>
+         <item>pounds</item> 
+         <item>Oz</item> 
+         <item>gallons</item>   
+    </string-array>
+</resources>

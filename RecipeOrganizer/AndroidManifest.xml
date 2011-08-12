@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Author : Sharayu Jadhav 
+This xml file is part of the project 'RECIPE ORGANIZER' for OSS (CS510) summer class project. -->
+
+<!--Copyright(c) 2011 
+Recipe Organizer is free software: you can redistribute it and/or modifyit under the terms of
+ the GNU General Public License as published bythe Free Software Foundation, either version 3 of the License,
+ or(at your option) any later version. This program is distributed in the hope that it will be useful,but
+ WITHOUT ANY WARRANTY; without even the implied warranty ofMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ See theGNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program.
+  If not, see <http://www.gnu.org/licenses/>.
+  
+    Contact Info:
+  Author: Sharayu Jadhav. 
+  For feedback email to sharayuj4u@gmail.com-->
+  
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.android.sharayu.recipeorganizer"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="7" />
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".AddRecipe"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RecipeSaved"
+                  android:label="@string/RecipeSaved">
+		</activity>
+		<activity android:name=".Lookup"
+                  android:label="@string/Lookup">
+		</activity>
+		<activity android:name=".main"
+                  android:label="@string/main">
+		</activity>
+		<activity android:name=".GenGrocList"
+                  android:label="@string/GenGrocList">
+		</activity>
+		<activity android:name="EditRecp"
+                  android:label="@string/EditRecp">
+		</activity>
+		<activity android:name="DelRecp"
+                  android:label="@string/DelRecp">
+		</activity>
+    </application>
+</manifest>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Author : Sharayu Jadhav 
+This xml file is part of the project 'RECIPE ORGANIZER' for OSS (CS510) summer class project. -->
+
+<!--Copyright(c) 2011 
+Recipe Organizer is free software: you can redistribute it and/or modifyit under the terms of
+ the GNU General Public License as published bythe Free Software Foundation, either version 3 of the License,
+ or(at your option) any later version. This program is distributed in the hope that it will be useful,but
+ WITHOUT ANY WARRANTY; without even the implied warranty ofMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ See theGNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program.
+  If not, see <http://www.gnu.org/licenses/>.
+  
+    Contact Info:
+  Author: Sharayu Jadhav. 
+  For feedback email to sharayuj4u@gmail.com-->
+  
+  
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+    <EditText android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/resultText" android:inputType="textMultiLine">
+        <requestFocus></requestFocus>
+    </EditText>
+     <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/linearLayout3" android:orientation="horizontal">
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/linearLayout4" android:orientation="horizontal">
+   		 <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:textStyle="bold" android:textSize="15sp" android:width="100sp"
+   		  android:text="Add another recipe" android:id="@+id/BSaveRecipe" android:onClick="onClickAddAnotherRecipe"></Button>
+    	 <Button android:text="Lookup Recipes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textStyle="bold" android:textSize="15sp" android:id="@+id/BCancel"  android:width="150sp" android:onClick="onClickLookup"></Button>
+    </LinearLayout>
+    
+    
+</LinearLayout>

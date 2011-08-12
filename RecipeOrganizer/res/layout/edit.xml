@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Author : Sharayu Jadhav 
+This xml file is part of the project 'RECIPE ORGANIZER' for OSS (CS510) summer class project. -->
+
+<!--Copyright(c) 2011 
+Recipe Organizer is free software: you can redistribute it and/or modify it under the terms of
+ the GNU General Public License as published by the Free Software Foundation, either version 3 of the License,
+ or(at your option) any later version. This program is distributed in the hope that it will be useful,but
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ See theGNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program.
+  If not, see <http://www.gnu.org/licenses/>.
+  
+  Contact Info:
+  Author: Sharayu Jadhav. 
+  For feedback email to sharayuj4u@gmail.com-->
+  
+<LinearLayout android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/linearLayout1" android:orientation="horizontal">
+        <TextView android:text="RecipeName" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="20sp" android:gravity="right"></TextView>
+        <AutoCompleteTextView android:layout_weight="1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/eRecipeName"></AutoCompleteTextView>
+    </LinearLayout>
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/linearLayout2" android:orientation="horizontal">
+        <TextView android:text="Serves:" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="center" android:textSize="20sp"></TextView>
+        <AutoCompleteTextView android:width="50sp" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="right" android:id="@+id/eServes"></AutoCompleteTextView>
+   <TextView android:text="  Level:" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="center" android:textSize="20sp"></TextView>
+   <AutoCompleteTextView android:layout_height="wrap_content" android:layout_weight="1" android:layout_width="wrap_content" android:id="@+id/eLevel">
+       <requestFocus></requestFocus>
+   </AutoCompleteTextView> 
+    </LinearLayout>
+     <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/linearLayout6" android:gravity="center">
+        <TextView android:text="Time Req:" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="center" android:textSize="20sp"></TextView>
+        <AutoCompleteTextView android:layout_height="wrap_content"  android:layout_width="wrap_content"
+        android:gravity="right" android:width="50sp" android:id="@+id/eTimeReq">
+        </AutoCompleteTextView>
+        <TextView android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:id="@+id/textView1" android:text="Mins"></TextView>     
+     </LinearLayout>
+     
+        <TextView android:text="Ingredients:" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="center" android:textSize="20sp"></TextView>
+        <AutoCompleteTextView android:layout_height="wrap_content"  android:layout_width="fill_parent"
+        android:gravity="right" android:width="200sp" android:id="@+id/eIngredients" android:height="100sp">
+        </AutoCompleteTextView>   
+     
+    
+        <TextView android:text="@string/Procedure" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="center" android:textSize="20sp"></TextView>
+        <AutoCompleteTextView android:layout_weight="1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/eProcedure" android:height="75sp"></AutoCompleteTextView>
+    
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/linearLayout4" android:orientation="horizontal">
+   		 <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:textStyle="bold" android:textSize="15sp" android:capitalize="none" android:width="100sp" android:id="@+id/BeSaveRecipe" android:text="Update" android:onClick="OnClickUpdateRecipe"></Button>
+    	 <Button android:text="Cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textStyle="bold" android:textSize="15sp" android:width="100sp" android:onClick="onClickClose" android:id="@+id/BeCancel"></Button>
+    </LinearLayout>
+</LinearLayout>
+   

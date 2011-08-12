@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Author : Sharayu Jadhav 
+This xml file is part of the project 'RECIPE ORGANIZER' for OSS (CS510) summer class project. -->
+
+<!--Copyright(c) 2011 
+Recipe Organizer is free software: you can redistribute it and/or modifyit under the terms of
+ the GNU General Public License as published bythe Free Software Foundation, either version 3 of the License,
+ or(at your option) any later version. This program is distributed in the hope that it will be useful,but
+ WITHOUT ANY WARRANTY; without even the implied warranty ofMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ See theGNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program.
+  If not, see <http://www.gnu.org/licenses/>.
+  
+  Contact Info:
+  Author: Sharayu Jadhav. 
+  For feedback email to sharayuj4u@gmail.com-->
+  
+  
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+      <Spinner android:id="@+id/spinner1" android:layout_width="fill_parent" android:layout_height="wrap_content"></Spinner>
+      <Button android:text="Generate Grocery List" android:id="@+id/bGrocList" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="onClickGrocList" android:layout_gravity="center_horizontal"></Button>
+      <Button android:text="Edit Recipe" android:id="@+id/bEditRecp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal"></Button>
+      <Button android:text="Delete Recipe" android:id="@+id/bDeleteRecp" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:layout_gravity="center_horizontal"></Button>
+      <Button android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:id="@+id/bShowRecp" android:width="150sp" android:layout_width="wrap_content" android:text="Back to AddRecipe"></Button>
+      <TextView android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/textView1" android:layout_width="wrap_content"></TextView>
+</LinearLayout>
